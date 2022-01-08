@@ -1,0 +1,131 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+
+/* Registration Page */
+/* Navbar */
+#navbar{
+    background-color: #444;
+    padding:10px;
+    color:#f4f4f4;
+    display: flex;
+}
+h1{
+    padding-right: 20px;
+}
+
+#journal{
+    font-family:'Pacifico',cursive;
+    font-size: 20px;
+}
+
+.link{
+    text-decoration: none;
+    color: #f4f4f4;
+    font-size: 28px;
+}
+
+.link:hover {
+    background-color: bisque;
+    color: rgb(0, 0, 0);
+    padding: 11px;
+    font-size: 31px;
+}
+
+
+/* Section */
+
+.body{
+    background: url('../img/dark-blue-wallpaper-hd-images.jpg' ) no-repeat center center/cover ;
+    padding-bottom: 395px;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+    
+
+}
+
+/* Register */
+
+.register {
+    padding:60px 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.register #register-img {
+    
+    height: 100%;
+}
+
+.img{
+    width: 400px;
+    height: 635px ;
+    opacity: 0.3;
+    
+}
+
+.register #register-text {
+    background-color: #f4f4f4;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-left: 20px ;
+    padding-right: 20px;
+}
+
+.register-form{
+    padding: 0 40px;
+}
+
+.word-register {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(110, 110, 110);
+}
+
+.input {
+    width: 300px;
+    font-size: 20px;
+    background-color: #f4f4f4;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    outline: none;
+    margin: 20px 0;
+    padding-bottom: 10px;
+    
+}
+
+#sign-up{
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 18px;
+    border: 1px solid red;
+    border-radius: 20px;
+    background-color: red; 
+  background-image: linear-gradient(to bottom right, red, yellow);
+  color: #f4f4f4;
+}
+
+#sign-up:hover{
+    border: 1px solid hotpink;
+    color: pink;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
