@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+
+/* Header */
+.head{
+    background-color: bisque;
+    padding: 150px;
+}
+
+.head h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+/* Section */
+
+.page {
+    background-color: greenyellow;
+    min-height: 100vh ;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    color: green;
+    text-decoration: none;
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+ul li a:hover {
+    background-color: grey;
+    border-radius: 20px;
+}
+
+/* Headers and Pargraphs */
+.page h1 {
+    font-size: 48px;
+    padding: 20px 0;
+}
+
+.page p {
+    font-size: 28px;
+    padding: 15px 0 ;
+}
+
+.page .p-color {
+    color: hotpink;
+}
